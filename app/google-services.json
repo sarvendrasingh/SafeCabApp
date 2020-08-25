@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256224104747",
+    "firebase_url": "https://safecabapp.firebaseio.com",
+    "project_id": "safecabapp",
+    "storage_bucket": "safecabapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256224104747:android:9a57d59aaaafbbd6c0b56e",
+        "android_client_info": {
+          "package_name": "com.example.safecabapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256224104747-62ba5ml7h98gl43dmch24fs6rqtricfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safecabapp",
+            "certificate_hash": "c30fe9b1f13b8f0c8e90cd2d26ea611509aef619"
+          }
+        },
+        {
+          "client_id": "256224104747-docbr99n2253g0a8vmtb9rpomb49hrbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn-IvUoUn7rYqCW5-_98ejzyOdZIHMatY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256224104747-docbr99n2253g0a8vmtb9rpomb49hrbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
