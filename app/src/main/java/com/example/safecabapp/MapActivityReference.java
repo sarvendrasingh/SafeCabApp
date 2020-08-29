@@ -19,7 +19,7 @@ public class MapActivityReference extends AppCompatActivity {
         mGetStarted.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mEdit = "sanal"
+
             }
         });
     }
