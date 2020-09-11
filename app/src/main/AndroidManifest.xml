@@ -17,14 +17,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".HistorySingleActivity"></activity>
+        <activity android:name=".HistoryActivity" />
         <activity android:name=".DriverSettingsActivity" />
         <activity android:name=".CustomerSettingsActivity" />
         <activity
             android:name=".DriverMapActivity"
             android:label="@string/title_activity_driver_map" />
         <activity android:name=".MapActivityReference" />
-        <activity android:name=".HistorySingleActivity" />
         <activity android:name=".CustomerMapActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
