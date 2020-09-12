@@ -7,19 +7,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.telecom.Call;
 import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.View;
-import android.view.textclassifier.ConversationActions;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.bumptech.glide.request.Request;
 import com.example.safecabapp.historyRecyclerView.HistoryAdapter;
 import com.example.safecabapp.historyRecyclerView.HistoryObject;
-import com.google.android.gms.common.api.Response;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -30,12 +25,9 @@ import com.google.firebase.database.ValueEventListener;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
-
-import javax.security.auth.callback.Callback;
 
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
