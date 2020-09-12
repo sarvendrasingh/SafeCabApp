@@ -340,24 +340,6 @@ public class HistorySingleActivity extends AppCompatActivity implements OnMapRea
 
     }
 
-    @Override
-
-    public void onRoutingCancelled() {
-
-    }
-
-    private void erasePolylines(){
-
-        for(Polyline line : polylines){
-
-            line.remove();
-
-        }
-
-        polylines.clear();
-
-    }
-
 
 
 
